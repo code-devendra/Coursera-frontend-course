@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: gray;
+        }
+        #box{
+            background-color: blue;
+            padding: 10px;
+            border: 5px solid black;
+            width: 300px;
+            height: 50px;
+            margin-top: 50px;
+            overflow: auto;
+        }
+        #content{
+            background-color: #90ee90;
+        }
+        h1{
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div id="box">
+        <div id="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, sapiente itaque enim facilis harum ea consequuntur eaque? Nihil, modi voluptas amet excepturi maiores nulla ipsa dignissimos eligendi consequatur laboriosam itaque?</div>
+    </div>
+</body>
+</html>

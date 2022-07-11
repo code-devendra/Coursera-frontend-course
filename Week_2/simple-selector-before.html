@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Selector</title>
+    <style>
+        /* all h2 elements */
+        h2{
+            color: red;
+            text-align: center;
+        }
+
+        /* all with class="highlight" */
+        .highlight{
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            background-color: green;
+            opacity: .6;
+        }
+
+        /* Element with id="mainPoint" */
+        #mainPoint{
+            font-size: 24px;
+            font-weight: bold;
+            background-color: red;
+            opacity: .7;
+        }
+
+        /* all p AND h1 elements */
+        p , h1{
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Selectors (h1)</h1>
+    <h2>Subheading 1 (h2)</h2>
+    <p class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nam aperiam ratione, omnis consectetur atque quas recusandae quia ipsam expedita repellendus, perferendis facere sunt odio odit officia, eum magni alias.</p>
+    <p class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nam aperiam ratione, perferendis facere sunt odio odit officia, eum magni alias.</p>
+    <h2>Subheading 2 (h2)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos est quaerat non repellendus cumque dolorem dolore nemo. Et porro consequatur vero, incidunt praesentium est quia similique, cupiditate cumque consequuntur eligendi.</p>
+    <div>This is the main point of the entire article. So, attribute
+        <span id="mainPoint">id ="mainPoint".</span>
+    </div>
+</body>
+</html>
